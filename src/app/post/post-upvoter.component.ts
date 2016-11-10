@@ -3,6 +3,8 @@ import { Angular2Apollo } from 'angular2-apollo';
 
 import gql from 'graphql-tag';
 
+import 'rxjs/add/operator/toPromise';
+
 @Component({
   selector: 'app-post-upvoter',
   template: `
@@ -29,6 +31,6 @@ export class PostUpvoterComponent {
       variables: {
         postId: this.postId,
       },
-    });
+    }).toPromise();
   }
 }

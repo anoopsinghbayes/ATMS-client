@@ -1,4 +1,4 @@
-import ApolloClient from 'apollo-client';
+import { ApolloClient } from 'apollo-client';
 
 import InBrowserNetworkInterface from './in-browser-network-interface';
 import schema from './schema';

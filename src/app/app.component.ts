@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
     <app-post-list></app-post-list>
   `
 })
-export class AppComponent {
-  title = 'app works!';
-}
+export class AppComponent {}
