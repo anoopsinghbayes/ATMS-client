@@ -5,7 +5,7 @@ import { ApolloModule } from 'angular2-apollo';
 import { AppComponent } from './app.component';
 import { PostListComponent } from './post/post-list.component';
 import { PostUpvoterComponent } from './post/post-upvoter.component';
-import { client } from './client';
+import { provideClient } from './client';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { client } from './client';
   ],
   imports: [
     BrowserModule,
-    ApolloModule.withClient(client)
+    ApolloModule.withClient(provideClient)
   ],
   providers: [],
   bootstrap: [AppComponent]
