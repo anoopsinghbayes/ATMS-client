@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Angular2Apollo, ApolloQueryObservable } from 'angular2-apollo';
+import { Apollo, ApolloQueryObservable } from 'apollo-angular';
 
 import gql from 'graphql-tag';
 
@@ -18,7 +18,7 @@ import gql from 'graphql-tag';
 })
 export class PostListComponent implements OnInit {
   posts: ApolloQueryObservable<any>;
-  constructor(private apollo: Angular2Apollo) {}
+  constructor(private apollo: Apollo) {}
 
   ngOnInit() {
     this.posts = this.apollo.watchQuery({
