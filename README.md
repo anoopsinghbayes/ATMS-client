@@ -1,5 +1,7 @@
 # Apollo Angular Hello World app
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/apollographql/frontpage-angular-app.svg)](https://greenkeeper.io/)
+
 This is the simple example Angular/Apollo app that lives at dev.apollodata.com.
 
 ## Installation
