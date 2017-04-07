@@ -1,21 +1,20 @@
-# Apollo Angular Hello World app
-
-This is the simple example Angular/Apollo app that lives at dev.apollodata.com.
+# ATMS-client Single page application written in Angular 
+This is the frontend for the ATMS server which will be servered to the users
 
 ## Installation
 
 Clone the repository and run `npm install`:
 
 ```
-git clone https://github.com/apollographql/frontpage-angular-app
-cd frontpage-angular-app
+git clone https://github.com/anoopsinghbayes/ATMS-client.git
+cd ATMS-client
 npm install
 ```
 
 
 ## Starting the app
 
-This app talks to the hello world server, available here: https://github.com/apollographql/frontpage-server
+This app talks to the ATMS server, available here: https://github.com/anoopsinghbayes/ATMS
 
 Once you've installed and started that server, start this app with:
 
